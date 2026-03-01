@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeolu Adesina | Personal Website</title>
+
+    <link rel="icon" type="image/x-icon" href="images/crown_of_God_favicon.ico">
+    
+    <!-- Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Link to the compiled CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body data-theme="light"> <!-- Default theme set to light -->
+
+    <!-- =========== Navigation Bar =========== -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo"><img src="images/crownofGod.svg" alt="My logo"></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <!-- <a href="blog.html" class="nav-link">Blog</a> -->
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://substack.com/@adeoluwaadesina" class="cta-button">
+                    Substack
+                </a>
+                <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- =========== Main Content =========== -->
+    <main>
+        
+        <!-- =========== About Section =========== -->
+        <section id="about" class="about-section">
+            <div class="container grid-container">
+                <div class="about-text">
+                    <h1>Hi, I'm Adeolu</h1>
+                    <p>
+                        I love talking about anything tech, startups, the economy and society. I'm currently working as a Talent Scout at Sourcing Sprints helping startup founders find talent.<br><br>
+
+I’m a top 1% Sudoku player. I love basketball, paintings, and a bit of underground music. <br><br> You can see what I’m learning this year <a href="https://www.notion.so/Adeolu-s-Learning-List-3169d671cc6e80de94ccfb93f2ab9992?pvs=21" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   style="color: #0000ee;">
+  here
+</a>, and I write about what I’m thinking on my <a href="https://substack.com/@adeoluwaadesina" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   style="color: #0000ee;">
+  substack
+</a>
+
+I’m a believer in Nigeria and would love to do something to help the country achieve it’s potential.
+                    </p>
+                </div>
+                <div id="threejs-container"></div>
+            </div>
+        </section>
+
+        <!-- =========== Projects Section =========== -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Projects</h2>
+                    <p>A collection of things I've built, from full-stack applications to data-driven tools to automations.</p>
+                </div>
+                <div class="project-carousel-wrapper">
+                    <div class="project-carousel">
+                    
+                        <!-- Project 1 -->
+                        <article class="project-card">
+                            <div class="project-card-image">
+                                <img src="images/pepsi_pallets.jpg" alt="Pallet">
+                            </div>
+                            <div class="project-card-content">
+                                <h3><a href="#">ERP for FMCG Distributors</a></h3>
+                                <p>Tracking Inventory, customer data and automating accounting for my mum's drink distribution business. Currently building... </p>
+                            </div>
+                        </article>
+
+                        <!-- Project 2 -->
+                        <article class="project-card">
+                            <div class="project-card-image">
+                                <img src="images/abuad_logo.jpeg" alt="Student Body Elections Voting App">
+                            </div>
+                            <div class="project-card-content">
+                                <h3><a href="#">Student Body Elections Voting App</a></h3>
+                                <p>A very basic voting application built with Flask for student voting in ABUAD.</p>
+                            </div>
+                        </article>
+
+                        <!-- Project 3 -->
+                        <article class="project-card">
+                            <div class="project-card-image">
+                                <img src="images/bimbo.png" alt="File Delivery Robot">
+                            </div>
+                            <div class="project-card-content">
+                                <h3><a href="#">Delivery Robot</a></h3>
+                                <p>Created an indoor delivery robot with a web app, a raspberry pi 4 and an arduino mega. Named her Bím̀bọ́ (for no real reason, just liked the name)</p>
+                            </div>
+                        </article>
+
+                        <!-- Project 4 -->
+                        <article class="project-card">
+                            <div class="project-card-image">
+                                <img src="images/Ademilogo.png" alt="Ademi">
+                            </div>
+                            <div class="project-card-content">
+                                <h3><a href="#">Ademi</a></h3>
+                                <p>Buiding a simple CRUD application that allows me to upload notes from what I'm learning. Syncs with my Notion</p>
+                            </div>
+                        </article>
+                        
+                        <!-- Project 5 -->
+                        <article class="project-card">
+                            <div class="project-card-image">
+                                <img src="images/WT.jpg" alt="Work Tracker Application">
+                            </div>
+                            <div class="project-card-content">
+                                <h3><a href="#">Work Tracker</a></h3>
+                                <p>Simple task management desktop application that allows me to add detailed notes to my tasks from Google Tasks.</p>
+                            </div>
+                        </article>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Contact Section =========== -->
+        <section id="contact" class="contact-section">
+            <div class="container text-center">
+                <h2>Get In Touch</h2>
+                <p>Have a question or just want to connect? Feel free to reach out. I'm always open to a good conversation.</p>
+                <div class="contact-email">
+                    <a href="mailto:adedaengine@gmail.com">adedaengine@gmail.com</a>
+                </div>
+
+                <!-- UPDATED SOCIAL LINKS (only change made) -->
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@Adeoluwa234" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://x.com/Adeolu42152434" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/adeolu_adesina/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/adeoluwa-adesina-949551235/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Adeoluwa-Adesina" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a
+                        href="https://substack.com/@adeoluwaadesina"
+                        aria-label="Substack"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <img
+                            src="https://substackcdn.com/image/fetch/w_24,c_limit,f_auto,q_auto:good/https://substack.com/img/substack.png"
+                            alt="Substack"
+                            style="vertical-align: middle;"
+                        >
+                    </a>
+
+                </div>
+    

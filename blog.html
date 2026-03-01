@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dex on para | A Blog by Adeoluwa Adesina</title>
+
+    <link rel="icon" type="image/x-icon" href="images/crown_of_God_favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Link to the Blog CSS file -->
+    <link rel="stylesheet" href="blog-style.css">
+
+</head>
+<body data-theme="dark">
+
+    <!-- Background Animation Canvas -->
+    <canvas id="background-animation"></canvas>
+
+    <!-- =========== Navigation Bar =========== -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="nav-left">
+                <a href="index.html" class="logo"><img src="images/crownofGod.svg" alt="My logo"></a>
+            </div>
+            <div class="nav-center">
+                 <h1 class="blog-title">Dex on para</h1>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="content-wrapper">
+        <!-- =========== Blog Grid Section =========== -->
+        <section class="blog-grid-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                     <article class="blog-card">
+                        <div class="blog-card-image"><img src="images/background_header.png" alt="StackShift logo"></div>
+                        <div class="blog-card-content">
+                            <h3><a href="#">Sorcery and Sourcing</a></h3>
+                            <p>My Experience with Stackshift's Sourcing Camp Cohort 3.</p>
+                        </div>
+                    </article>
+                    <!-- Blog Post 2 -->
+                    <article class="blog-card">
+                        <div class="blog-card-image"><img src="images/cocktail party.jpeg" alt="Image from cocktail party"></div>
+                        <div class="blog-card-content">
+                            <h3><a href="#">A Year of Sourcing</a></h3>
+                            <p>My experience as a Talent Scout Intern learning how to source.</p>
+                        </div>
+                    </article>
+                    <!-- Blog Post 3 -->
+                    <article class="blog-card">
+                        <div class="blog-card-image"><img src="images/knowledge vs skill.jpeg" alt="A person focused on a laptop"></div>
+                        <div class="blog-card-content">
+                            <h3><a href="#">Knowledge Vs Skill</a></h3>
+                            <p>What's the relationship between knowledge and skill, what should you optimize for?</p>
+                        </div>
+                    </article>
+                    <!-- Blog Post 4 -->
+                    <article class="blog-card">
+                        <div class="blog-card-image"><img src="https://picsum.photos/seed/bloggrid3/600/400" alt="Blog post image"></div>
+                        <div class="blog-card-content">
+                            <h3><a href="#">The Future of Ed-Tech</a></h3>
+                            <p>Exploring how programmatic visualizations can revolutionize learning complex topics.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Maker Info Section =========== -->
+        <section class="maker-info-section">
+            <div class="container">
+                 <div class="maker-links">
+                    <a href="index.html">Homepage</a>
+                    <a href="ademi.html">Ademi Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========== Footer =========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="copyright-year">2025</span> Adeoluwa Adesina. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="theme.js"></script>
+    <script src="blog-animation.js"></script>
+
+</body>
+</html>

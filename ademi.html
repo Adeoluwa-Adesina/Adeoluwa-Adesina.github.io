@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ademi | Learn by Teaching</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Link to the Ademi CSS file -->
+    <link rel="stylesheet" href="ademi-style.css">
+</head>
+<body data-theme="light">
+
+    <!-- =========== Navigation Bar =========== -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="nav-left">
+                     <a href="#" class="logo"><img src="images/crownofGod.svg" alt="My logo"></a>
+            </div>
+            <div class="nav-center">
+                <span class="brand-name">Ademi</span>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- =========== Banner Section =========== -->
+        <section class="banner-section">
+            <div class="container">
+                <h1>Learning by Teaching.</h1>
+                <br>
+                <h2>Ademi is a personal project where I create lesson notes on subjects or topics I'm reading on by building programmatic visualisations using Manim.</h2>
+                <br>
+                <p>Currently fixing some bugs, Ademi will be back soon</p>
+            </div>
+        </section>
+
+        <!-- =========== Content Section =========== -->
+        <!-- <section class="content-section">
+            <div class="container">
+                Search and Toggle Controls
+                <div class="controls-wrapper">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Search courses or topics...">
+                    </div>
+                    <div class="toggle-switch">
+                        <button id="courses-btn" class="toggle-btn" data-view="courses">Courses</button>
+                        <button id="topics-btn" class="toggle-btn" data-view="topics">Topics</button>
+                    </div>
+                </div>
+
+                Courses Grid
+                <div id="courses-grid" class="content-grid">
+                    Course Card 1
+                    <div class="course-card" data-title="Data Structures & Algorithms">
+                        <div class="card-image"><img src="https://picsum.photos/seed/ds/600/400" alt="Data Structures"></div>
+                        <div class="card-content">
+                            <h3>Data Structures & Algorithms</h3>
+                            <p>The bedrock of computer science. Learn about arrays, trees, graphs, and more.</p>
+                        </div>
+                    </div>
+                    Course Card 2
+                    <div class="course-card" data-title="Linear Algebra">
+                        <div class="card-image"><img src="https://picsum.photos/seed/la/600/400" alt="Linear Algebra"></div>
+                        <div class="card-content">
+                            <h3>Linear Algebra</h3>
+                            <p>Explore vectors, matrices, and linear transformations essential for ML and graphics.</p>
+                        </div>
+                    </div>
+                    Course Card 3
+                    <div class="course-card" data-title="Web Development Fundamentals">
+                        <div class="card-image"><img src="https://picsum.photos/seed/webdev/600/400" alt="Web Development"></div>
+                        <div class="card-content">
+                            <h3>Web Development Fundamentals</h3>
+                            <p>Master the core technologies of the web: HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                    Course Card 4
+                    <div class="course-card" data-title="Calculus I">
+                        <div class="card-image"><img src="https://picsum.photos/seed/calc/600/400" alt="Calculus"></div>
+                        <div class="card-content">
+                            <h3>Calculus I</h3>
+                            <p>Understand limits, derivatives, and integrals to describe rates of change.</p>
+                        </div>
+                    </div>
+                </div>
+
+                Topics Grid
+                <div id="topics-grid" class="content-grid">
+                    Topic Card 1
+                    <div class="topic-card" data-title="Bubble Sort Algorithm">
+                        <h3>Bubble Sort Algorithm</h3>
+                        <p>A simple sorting algorithm that repeatedly steps through the list.</p>
+                    </div>
+                     Topic Card 2
+                    <div class="topic-card" data-title="Matrix Multiplication">
+                        <h3>Matrix Multiplication</h3>
+                        <p>A fundamental operation in linear algebra with wide applications.</p>
+                    </div>
+                     Topic Card 3
+                    <div class="topic-card" data-title="The DOM Tree">
+                        <h3>The DOM Tree</h3>
+                        <p>How browsers represent and interact with HTML documents.</p>
+                    </div>
+                     Topic Card 4
+                    <div class="topic-card" data-title="Limits in Calculus">
+                        <h3>Limits in Calculus</h3>
+                        <p>The foundational concept for understanding derivatives and continuity.</p>
+                    </div>
+                </div>
+                
+                No results message
+                <div id="no-results-message" class="no-results">
+                    <p>No results found. Please try a different search term.</p>
+                </div>
+
+            </div>
+        </section> -->
+
+         <!-- =========== Maker Info Section =========== -->
+        <section class="maker-info-section">
+            <div class="container">
+                <p>Ademi is a project by Adeoluwa Adesina.</p>
+                <div class="maker-links">
+                    <a href="index.html">Homepage</a>
+                    <!-- <a href="blog.html">Blog</a> -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========== Footer =========== -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; <span id="copyright-year">2025</span> Adeoluwa Adesina. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Link to the Ademi JavaScript file -->
+    <script src="ademi.js"></script>
+</body>
+</html>
