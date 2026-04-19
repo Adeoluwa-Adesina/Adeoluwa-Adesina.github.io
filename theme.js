@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
 
     // Apply the saved theme on page load
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     body.setAttribute('data-theme', savedTheme);
 
     themeToggleButton?.addEventListener('click', () => {
