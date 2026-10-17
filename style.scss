@@ -112,7 +112,7 @@ section { padding: 4rem 0; }
   height: 100%;
 }
 
-.logo img { height: 32px; width: auto; }
+.logo { font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
 
 .nav-links {
   display: none;
@@ -195,21 +195,6 @@ section { padding: 4rem 0; }
 /* ============================
    6. BUTTONS
 ============================ */
-.cta-button {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.45rem 0.9rem;
-  background: var(--accent);
-  color: #fff;
-  font-weight: 500;
-  font-size: 0.875rem;
-  border-radius: var(--radius-sm);
-  transition: background 0.2s, transform 0.2s;
-  white-space: nowrap;
-
-  &:hover { background: var(--accent-hover); transform: translateY(-1px); }
-}
-
 .theme-toggle-button {
   background: none;
   border: 1px solid var(--border-color);
@@ -253,6 +238,7 @@ section { padding: 4rem 0; }
 .about-text {
   text-align: center;
   h1 { margin-bottom: 1rem; }
+  p + p { margin-top: 1rem; }
   p { max-width: 42ch; margin-inline: auto; }
 
   @media (min-width: 768px) {
@@ -272,69 +258,10 @@ section { padding: 4rem 0; }
 }
 
 /* ============================
-   8. PROJECTS SECTION
-============================ */
-.projects-section {
-  background: var(--bg-secondary);
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
-}
-
-.section-header {
-  text-align: center;
-  margin-bottom: 2.5rem;
-  p { margin-top: 0.75rem; max-width: 45ch; margin-inline: auto; }
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-
-  @media (min-width: 600px) { grid-template-columns: repeat(2, 1fr); }
-  @media (min-width: 1024px) { grid-template-columns: repeat(3, 1fr); }
-}
-
-.project-card {
-  background: var(--bg-primary);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-
-  &:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
-}
-
-.project-card-image {
-  height: 180px;
-  overflow: hidden;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease;
-  }
-
-  .project-card:hover & img { transform: scale(1.05); }
-}
-
-.project-card-content {
-  padding: 1.25rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  h3 { margin-bottom: 0.5rem; }
-  p { font-size: 0.9rem; }
-}
-
-/* ============================
-   9. CONTACT SECTION
+   8. CONTACT SECTION
 ============================ */
 .contact-section {
+  border-top: 1px solid var(--border-color);
   text-align: center;
 
   h2 { margin-bottom: 0.75rem; }
@@ -385,7 +312,7 @@ section { padding: 4rem 0; }
 }
 
 /* ============================
-   10. FOOTER
+   9. FOOTER
 ============================ */
 .footer {
   background: var(--bg-secondary);
